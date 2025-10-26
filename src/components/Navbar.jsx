@@ -3,6 +3,7 @@ import { useTheme } from "../themeContext";
 
 const Navbar = () => {
   const { darkMode, setDarkMode } = useTheme();
+
   return (
     <nav className="flex justify-between items-center p-4 bg-black bg-opacity-50 backdrop-blur-md rounded-xl m-4 z-10 relative">
       <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400">
